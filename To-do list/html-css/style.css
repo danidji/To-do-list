@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('Polices/blackjack-webfont.woff');
+    src: url('polices/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/blackjack-webfont.woff') format('woff'),
+         url('polices/blackjack-webfont.ttf') format('truetype'),
+         url('polices/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'komika_titleregular';
+    src: url('polices/KomikaTitle-webfont.eot');
+    src: url('polices/KomikaTitle-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/KomikaTitle-webfont.woff') format('woff'),
+         url('polices/KomikaTitle-webfont.ttf') format('truetype'),
+         url('polices/KomikaTitle-webfont.svg#komika_titleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Général*/
+body
+{
+    background-color: #a6a9b6;
+    width: auto;
+    font-family: /* 'komika_titleregular', */cursive,fantasy,impact;
+}
+h1, h2
+{
+    text-transform: uppercase;
+}
+/*Header*/
+header
+{
+    display: flex;
+    justify-content: center;
+}
+h1
+{
+    color :  white;
+    font-size: 2.5em;
+}
+/* Contenue de la to-do */
+#todo
+{
+    width: 60%;
+    border : 1px white solid;
+    border-radius: 20px/20px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: white;
+}
+#title 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2
+{
+    color: #a6a9b6;
+}
+#add
+{
+    height: 20px;
+}
+ul
+{
+    font-family: 'black_jackregular';
+    list-style-type: none;
+}
+li
+{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-bottom: 1px #a6a9b6 solid;
+    display : flex ;
+    justify-content: space-between;
+}
+button 
+{
+    margin: 3px;
+}
+
