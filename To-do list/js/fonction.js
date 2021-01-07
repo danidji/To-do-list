@@ -79,7 +79,7 @@ const doneTask = (e) => {
 
         document.getElementById("checkListDone").style.textDecoration = "line-through";
     } 
-    //Si la checkbox est bien coché, on duplique la tache, on l'insère dans la section "done" et on la supprime de la section "todo"
+    //Change la catégorie d'une tache réalisé ou non
     if (e.target.checked){
         // Récupération de l'id pour la tache réalisé
         document.getElementById("checkListDone").appendChild(document.getElementById(liId));
