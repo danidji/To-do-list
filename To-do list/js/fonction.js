@@ -4,7 +4,6 @@ const addTask = (e) => {
     //ouvre une fenêtre textuelle pour renseigner sa tâche
     let taskName = window.prompt('Renseigner une nouvelle tâche',e.target.textContent);
     //Si une tâche est renseigné :
-    
     if (taskName!==null){
         //Création d'une nouvelle ligne de lisgne avec une checkbox + tache
         let ulElt = document.getElementById("liste");
