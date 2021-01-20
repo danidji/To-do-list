@@ -1,6 +1,5 @@
 //Fonction qui ajoute une nouvelle ligne de tache
 const addTask = (e) => {
-    
     //ouvre une fenêtre textuelle pour renseigner sa tâche
     let taskName = window.prompt('Renseigner une nouvelle tâche',e.target.textContent);
     //Si une tâche est renseigné :
